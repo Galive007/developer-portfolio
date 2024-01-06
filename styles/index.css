@@ -50,7 +50,7 @@ nav a{
 }
 .bannar{
     display: flex;
-    padding: 30px 30px 0 150px;
+    padding: 30px 30px 0px 150px;
     align-items: center;
     justify-content: space-between;
 }
@@ -58,10 +58,9 @@ nav a{
     max-width: 585px;
     
 }
-
 .bannar .profile-img{
-    width: 584px;
-    height: 676px;
+    width: 590px;
+    height: 730px;
 }
 .bannar-greeting{
     color: #474747;
@@ -82,4 +81,50 @@ nav a{
     font-size: 18px;
     font-weight: 400;
     line-height: 30px; /* 166.667% */
+}
+/* Main section style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* About Section */
+.about{
+    margin: 130px 0;
+    padding: 130px 0;
+    text-align: center;
+    border-radius: 10px;
+    background: #FFF8F3;
+}
+.about-tittle{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+.about-para{
+    margin: auto;
+    width: 827px;
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    
+    text-align: center;
+}
+.info-tittle{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+}
+.info-para{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
 }
