@@ -91,16 +91,18 @@ main{
 .about{
     margin: 130px 0;
     padding: 130px 0;
-    text-align: center;
+    
     border-radius: 10px;
     background: #FFF8F3;
 }
-.about-tittle{
+.section-tittle{
+    text-align: center;
     color: #181818;
     font-size: 35px;
     font-weight: 700;
 }
 .about-para{
+    text-align: center;
     margin: auto;
     width: 827px;
     color: #757575;
@@ -113,7 +115,6 @@ main{
     justify-content: space-around;
 }
 .about-info{
-    
     text-align: center;
 }
 .info-tittle{
@@ -126,5 +127,14 @@ main{
     color: #474747;
     font-size: 20px;
     font-weight: 700;
+    line-height: 30px;
+}
+/* what i do section */
+.what-i-do-para{
+    margin: 0 auto;
+    width: 909px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
     line-height: 30px;
 }
