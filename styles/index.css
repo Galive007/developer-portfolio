@@ -169,9 +169,6 @@ main{
     display: flex;
     gap: 70px;
 }
-.resume-column{
-    
-}
 .resume-column-tittle{
     color: #474747;
     font-size: 25px;
@@ -184,7 +181,7 @@ main{
 }
 .resume-item-institute{
     color: #757575;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 600;
 }
 .resume-item-para{
@@ -192,4 +189,11 @@ main{
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
+}
+hr{
+    margin: 0 20px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
