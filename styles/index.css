@@ -17,6 +17,7 @@ body{
     background: #FD6E0A;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
 }
 /* nav related style */
 .header{
@@ -200,6 +201,7 @@ hr{
 .download-cv{
     text-align: center;
     margin-top: 50px;
+    cursor: pointer;
 }
 /* footer related style */
 footer{
